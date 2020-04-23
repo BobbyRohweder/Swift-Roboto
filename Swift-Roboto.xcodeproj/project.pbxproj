@@ -8,8 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D50B38A02451217E001490CD /* Swift_Roboto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50B38962451217E001490CD /* Swift_Roboto.framework */; };
-		D50B38A52451217E001490CD /* Swift_RobotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B38A42451217E001490CD /* Swift_RobotoTests.swift */; };
 		D50B38A72451217E001490CD /* Swift_Roboto.h in Headers */ = {isa = PBXBuildFile; fileRef = D50B38992451217E001490CD /* Swift_Roboto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D50B38B1245121F5001490CD /* UIFont+Roboto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B38B0245121F5001490CD /* UIFont+Roboto.swift */; };
+		D50B38BF24512260001490CD /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B324512260001490CD /* Roboto-MediumItalic.ttf */; };
+		D50B38C024512260001490CD /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B424512260001490CD /* Roboto-Bold.ttf */; };
+		D50B38C124512260001490CD /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B524512260001490CD /* Roboto-LightItalic.ttf */; };
+		D50B38C224512260001490CD /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B624512260001490CD /* Roboto-Thin.ttf */; };
+		D50B38C324512260001490CD /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B724512260001490CD /* Roboto-ThinItalic.ttf */; };
+		D50B38C424512260001490CD /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B824512260001490CD /* Roboto-BlackItalic.ttf */; };
+		D50B38C524512260001490CD /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B924512260001490CD /* Roboto-Regular.ttf */; };
+		D50B38C624512260001490CD /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38BA24512260001490CD /* Roboto-Medium.ttf */; };
+		D50B38C724512260001490CD /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38BB24512260001490CD /* Roboto-Light.ttf */; };
+		D50B38C824512260001490CD /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38BC24512260001490CD /* Roboto-Italic.ttf */; };
+		D50B38C924512260001490CD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38BD24512260001490CD /* Roboto-Black.ttf */; };
+		D50B38CA24512260001490CD /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38BE24512260001490CD /* Roboto-BoldItalic.ttf */; };
+		D50B38CC24518E02001490CD /* UIFontRobotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B38CB24518E02001490CD /* UIFontRobotoTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +40,21 @@
 		D50B38992451217E001490CD /* Swift_Roboto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_Roboto.h; sourceTree = "<group>"; };
 		D50B389A2451217E001490CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D50B389F2451217E001490CD /* Swift-RobotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-RobotoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D50B38A42451217E001490CD /* Swift_RobotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_RobotoTests.swift; sourceTree = "<group>"; };
 		D50B38A62451217E001490CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50B38B0245121F5001490CD /* UIFont+Roboto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Roboto.swift"; sourceTree = "<group>"; };
+		D50B38B324512260001490CD /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D50B38B424512260001490CD /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D50B38B524512260001490CD /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		D50B38B624512260001490CD /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		D50B38B724512260001490CD /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D50B38B824512260001490CD /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D50B38B924512260001490CD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D50B38BA24512260001490CD /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D50B38BB24512260001490CD /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		D50B38BC24512260001490CD /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		D50B38BD24512260001490CD /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		D50B38BE24512260001490CD /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D50B38CB24518E02001490CD /* UIFontRobotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontRobotoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +97,9 @@
 		D50B38982451217E001490CD /* Swift-Roboto */ = {
 			isa = PBXGroup;
 			children = (
+				D50B38B224512210001490CD /* Fonts */,
 				D50B38992451217E001490CD /* Swift_Roboto.h */,
+				D50B38B0245121F5001490CD /* UIFont+Roboto.swift */,
 				D50B389A2451217E001490CD /* Info.plist */,
 			);
 			path = "Swift-Roboto";
@@ -80,10 +108,29 @@
 		D50B38A32451217E001490CD /* Swift-RobotoTests */ = {
 			isa = PBXGroup;
 			children = (
-				D50B38A42451217E001490CD /* Swift_RobotoTests.swift */,
+				D50B38CB24518E02001490CD /* UIFontRobotoTests.swift */,
 				D50B38A62451217E001490CD /* Info.plist */,
 			);
 			path = "Swift-RobotoTests";
+			sourceTree = "<group>";
+		};
+		D50B38B224512210001490CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D50B38BD24512260001490CD /* Roboto-Black.ttf */,
+				D50B38B824512260001490CD /* Roboto-BlackItalic.ttf */,
+				D50B38B424512260001490CD /* Roboto-Bold.ttf */,
+				D50B38BE24512260001490CD /* Roboto-BoldItalic.ttf */,
+				D50B38BC24512260001490CD /* Roboto-Italic.ttf */,
+				D50B38BB24512260001490CD /* Roboto-Light.ttf */,
+				D50B38B524512260001490CD /* Roboto-LightItalic.ttf */,
+				D50B38BA24512260001490CD /* Roboto-Medium.ttf */,
+				D50B38B324512260001490CD /* Roboto-MediumItalic.ttf */,
+				D50B38B924512260001490CD /* Roboto-Regular.ttf */,
+				D50B38B624512260001490CD /* Roboto-Thin.ttf */,
+				D50B38B724512260001490CD /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +195,7 @@
 				TargetAttributes = {
 					D50B38952451217E001490CD = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					D50B389E2451217E001490CD = {
 						CreatedOnToolsVersion = 11.4;
@@ -178,6 +226,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50B38C624512260001490CD /* Roboto-Medium.ttf in Resources */,
+				D50B38C324512260001490CD /* Roboto-ThinItalic.ttf in Resources */,
+				D50B38C524512260001490CD /* Roboto-Regular.ttf in Resources */,
+				D50B38C424512260001490CD /* Roboto-BlackItalic.ttf in Resources */,
+				D50B38C224512260001490CD /* Roboto-Thin.ttf in Resources */,
+				D50B38C924512260001490CD /* Roboto-Black.ttf in Resources */,
+				D50B38CA24512260001490CD /* Roboto-BoldItalic.ttf in Resources */,
+				D50B38C024512260001490CD /* Roboto-Bold.ttf in Resources */,
+				D50B38BF24512260001490CD /* Roboto-MediumItalic.ttf in Resources */,
+				D50B38C824512260001490CD /* Roboto-Italic.ttf in Resources */,
+				D50B38C124512260001490CD /* Roboto-LightItalic.ttf in Resources */,
+				D50B38C724512260001490CD /* Roboto-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50B38B1245121F5001490CD /* UIFont+Roboto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50B38A52451217E001490CD /* Swift_RobotoTests.swift in Sources */,
+				D50B38CC24518E02001490CD /* UIFontRobotoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +401,7 @@
 		D50B38AB2451217E001490CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5R97AJFP6M;
@@ -348,6 +410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Swift-Roboto/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +419,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bobbyrohweder.Swift-Roboto";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +428,7 @@
 		D50B38AC2451217E001490CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5R97AJFP6M;
@@ -372,6 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Swift-Roboto/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,6 +454,7 @@
 		D50B38AE2451217E001490CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5R97AJFP6M;
 				INFOPLIST_FILE = "Swift-RobotoTests/Info.plist";
@@ -406,6 +473,7 @@
 		D50B38AF2451217E001490CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5R97AJFP6M;
 				INFOPLIST_FILE = "Swift-RobotoTests/Info.plist";
