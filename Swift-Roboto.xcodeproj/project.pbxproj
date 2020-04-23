@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D50B38A02451217E001490CD /* Swift_Roboto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50B38962451217E001490CD /* Swift_Roboto.framework */; };
+		D50B38A02451217E001490CD /* SwiftRoboto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50B38962451217E001490CD /* SwiftRoboto.framework */; };
 		D50B38A72451217E001490CD /* Swift_Roboto.h in Headers */ = {isa = PBXBuildFile; fileRef = D50B38992451217E001490CD /* Swift_Roboto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D50B38B1245121F5001490CD /* UIFont+Roboto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50B38B0245121F5001490CD /* UIFont+Roboto.swift */; };
 		D50B38BF24512260001490CD /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D50B38B324512260001490CD /* Roboto-MediumItalic.ttf */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D50B38962451217E001490CD /* Swift_Roboto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swift_Roboto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50B38962451217E001490CD /* SwiftRoboto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRoboto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50B38992451217E001490CD /* Swift_Roboto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_Roboto.h; sourceTree = "<group>"; };
 		D50B389A2451217E001490CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D50B389F2451217E001490CD /* Swift-RobotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-RobotoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D50B38A02451217E001490CD /* Swift_Roboto.framework in Frameworks */,
+				D50B38A02451217E001490CD /* SwiftRoboto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		D50B38972451217E001490CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D50B38962451217E001490CD /* Swift_Roboto.framework */,
+				D50B38962451217E001490CD /* SwiftRoboto.framework */,
 				D50B389F2451217E001490CD /* Swift-RobotoTests.xctest */,
 			);
 			name = Products;
@@ -162,7 +162,7 @@
 			);
 			name = "Swift-Roboto";
 			productName = "Swift-Roboto";
-			productReference = D50B38962451217E001490CD /* Swift_Roboto.framework */;
+			productReference = D50B38962451217E001490CD /* SwiftRoboto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D50B389E2451217E001490CD /* Swift-RobotoTests */ = {
@@ -417,7 +417,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bobbyrohweder.Swift-Roboto";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SwiftRoboto;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -444,7 +444,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "bobbyrohweder.Swift-Roboto";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = SwiftRoboto;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

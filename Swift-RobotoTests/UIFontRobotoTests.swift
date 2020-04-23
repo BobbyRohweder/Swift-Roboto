@@ -6,7 +6,7 @@
 //  Copyright © 2020 Bobby Rohweder. All rights reserved.
 //
 
-import Swift_Roboto
+import SwiftRoboto
 import UIKit
 import XCTest
 
